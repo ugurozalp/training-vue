@@ -5,16 +5,19 @@
     </button>
     <v-icon>$vuetify.icons.customIconGlobal</v-icon>
     <v-icon>$customIconGlobal</v-icon>
+    <globe-icon></globe-icon>
   </div>
 </template>
 
 <script>
 import CustomIcon from "@/icons/CustomIconGlobe.vue";
+import GlobeIcon from "@/icons/globe.svg";
 
 export default {
-  name: "HelloWorld",
+  name: "UseOfIcons",
   components: {
-    CustomIcon
+    CustomIcon,
+    GlobeIcon
   },
   methods: {
     printHello() {
